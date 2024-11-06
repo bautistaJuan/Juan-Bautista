@@ -1,0 +1,96 @@
+{
+  "headerMenu": {
+    "btnInicio": "Home",
+    "btnPortfolio": "Portfolio",
+    "btnMisServicios": "My Services",
+    "btnContacto": "Contact"
+  },
+  "home": {
+    "sobreMi": "About Me",
+    "sobreMiText": "I'm Juan, a web developer with solid knowledge in React/JavaScript. I specialize in creating efficient and scalable web applications, combining clean code with intuitive interfaces. My focus is on developing technical solutions that meet both business objectives and end-user needs."
+  },
+  "habilidades": {
+    "blandas": {
+      "1": "Analytical Thinking",
+      "2": "Project Management",
+      "3": "Responsibilities",
+      "4": "Flexibility",
+      "5": "Active Listening",
+      "6": "Accountability",
+      "7": "Attention to Detail"
+    },
+    "tecnicas": [
+      "HTML5",
+      "CSS3",
+      "JAVASCRIPT",
+      "TYPESCRIPT",
+      "NODE.JS",
+      "EXPRESS.JS",
+      "REACT.JS",
+      "FIREBASE",
+      "TAILWIND CSS",
+      "FRAMER MOTION",
+      "FIGMA",
+      "BASH",
+      "GIT/GITHUB",
+      "NPM",
+      "VITE"
+    ]
+  },
+  "services": {
+    "title": "My Services",
+    "front": "Frontend Developer specialized in creating modern web interfaces using JavaScript and React.js",
+    "design": "Web Designer specialized in creating modern and responsive interfaces using HTML, CSS, and Figma."
+  },
+  "portfolio": {
+    "bleach": {
+      "title": "Bleach: Thousand Year Blood War",
+      "desc": "I developed a responsive SPA that presents Bleach content in Spanish, with detailed character information, fluid animations, and cross-platform adaptive design.",
+      "stack": [
+        "REACT.JS",
+        "TAILWIND CSS",
+        "TYPESCRIPT",
+        "FRAMER MOTION",
+        "FIGMA",
+        "VITE",
+        "GITHUB"
+      ]
+    },
+    "chat": {
+      "title": "Real Time Chat: Firebase",
+      "desc": "I developed an efficient web authentication application that simplifies the registration process to two fields, implementing Firebase for real-time user management and Firestore for data persistence.",
+      "stack": [
+        "TYPESCRIPT",
+        "HTML5",
+        "CSS/MODULES",
+        "GITHUB",
+        "FIRESTORE",
+        "PARCEL",
+        "FIGMA",
+        "FIREBASE REALTIME DATABASE"
+      ]
+    },
+    "ppt": {
+      "title": "Rock Paper Scissors",
+      "desc": "I developed an interactive SPA of the classic 'Rock, Paper, Scissors' game with vanilla JavaScript, implementing multiple game states and a dynamic scoring system against an AI.",
+      "stack": [
+        "JAVASCRIPT",
+        "HTML5",
+        "CSS/MODULES",
+        "GITHUB",
+        "WEB COMPONENTS",
+        "PARCEL"
+      ]
+    }
+  },
+  "contactBtns": {
+    "wts": {
+      "title": "Contact Me",
+      "color": "black"
+    },
+    "lkn": {
+      "title": "Let's Connect",
+      "color": "blue"
+    }
+  }
+}
