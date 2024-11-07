@@ -1,20 +1,20 @@
-import json from "../assets/text/es.json";
-const StackIcons = () => {
-    const Frontend = () => {
-        return (
-            <div>
-                {json.skills.technicalSkills.frontend.map((item) => (
-                    <span>{item}</span>
-                ))}
-            </div>
-        )
-    }
+import React from "react";
 
-    return (
-        <div>
-            <Frontend />
-        </div>
-    )
+type Stack = string[];
+interface StackIconsProps {
+    stack: Stack;
 }
 
-export default StackIcons
+const StackIcons: React.FC<StackIconsProps> = ({ stack }) => {
+    return (
+        <>
+            {stack.map((icon, index) => (
+                <b className="border border-[#E4E5E7] h-[3rem] text-[.9rem] text-[#222325] sm:text-[1.2rem]  rounded-full flex flex-col justify-center items-center text-center" key={index}>
+                    {icon}
+                </b>
+            ))}
+        </>
+    );
+}
+
+export default StackIcons;
