@@ -7,3 +7,9 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+::-webkit-scrollbar {
+    background-color: rgba(28, 27, 27, 0.066);
+    width: 1px;
+}
