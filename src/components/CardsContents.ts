@@ -34,14 +34,14 @@ const service: Service[] = [
     starts: [starts1, starts1, starts1, starts1, starts1],
   },
 ];
-const projects: Project[] = [
-  {
-    title: "Bleach: Thousand Year Blood War",
-    img: "",
-    description:
-      "Desarrollé una SPA responsive que presenta contenido de Bleach en español, con información detallada de personajes, animaciones fluidas y diseño adaptativo multiplataforma.",
-    stack: [""],
-  },
-];
+// const projects: Project[] = [
+//   {
+//     title: "Bleach: Thousand Year Blood War",
+//     img: "",
+//     description:
+//       "Desarrollé una SPA responsive que presenta contenido de Bleach en español, con información detallada de personajes, animaciones fluidas y diseño adaptativo multiplataforma.",
+//     stack: [""],
+//   },
+// ];
 
 export { service };
