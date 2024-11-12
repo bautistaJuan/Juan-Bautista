@@ -5,7 +5,7 @@ const Header = () => {
       <div className="flex-grow">
         <LogoText />
       </div>
-      <button className="text-[#62646A] absolute right-0 p-3 rounded">Hablame</button>
+      <a href="mailto:vegajuancontact@gmail.com" className="text-[#FFA500] absolute right-0 p-3 lg:text-[1.3rem] font-bold">Hablame</a>
     </header>
   );
 };

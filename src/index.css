@@ -13,3 +13,7 @@ html {
     background-color: rgba(28, 27, 27, 0.066);
     width: 1px;
 }
+
+.text-stroke {
+    -webkit-text-stroke: 1.5px #1572eb;
+}

@@ -80,10 +80,9 @@ const Sidebar = () => {
         </nav>
       </div>
       <button
-        className="fixed right-4 bottom-10 bg-primary p-3 rounded-full w-[100px] h-[100px] text-[2.9rem] font-bold"
+        className="fixed right-2 bottom-1 flex items-center justify-center text-center  bg-orange-500 rounded-full w-[3rem] h-[3rem]"
         onClick={() => setShowMenu(!showMenu)}
       >
-        {!showMenu ? "X" : "Menu"}
       </button>
     </>
   );
