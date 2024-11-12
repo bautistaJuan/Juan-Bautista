@@ -6,7 +6,7 @@ const PortfolioCard = ({ img, title, description, stack, index, link }: { img: s
             <a href={link} className="lg:w-[22rem]">
                 <img className="w-full h-full object-cover" src={img} alt={title} />
             </a>
-            <div className="flex flex-col flex-grow  p-1 lg:w-[80%] sm:w-[100%] h-full">
+            <div className="flex flex-col flex-grow  p-3 lg:w-[80%] sm:w-[100%] h-full">
                 <h2 className="text-[2rem] -tracking-tight text-orange-500 font-semibold">{title}</h2>
                 <p className="text-justify mt-1">
                     {description}
