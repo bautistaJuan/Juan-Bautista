@@ -36,56 +36,5 @@
     "title": "Mis Servicios",
     "front": "Desarrollador Frontend especializado en la creación de interfaces web modernas utilizando JavaScript y React.js",
     "design": "Diseñador web especializado en la creación de interfaces modernas y responsivas utilizando HTML, CSS y Figma."
-  },
-  "portfolio": {
-    "bleach": {
-      "title": "Bleach: Thousand Year Blood War",
-      "desc": "Desarrollé una SPA responsive que presenta contenido de Bleach en español, con información detallada de personajes, animaciones fluidas y diseño adaptativo multiplataforma.",
-      "stack": [
-        "REACT.JS",
-        "TAILWIND CSS",
-        "TYPESCRIPT",
-        "FRAMER MOTION",
-        "FIGMA",
-        "VITE",
-        "GITHUB"
-      ]
-    },
-    "chat": {
-      "title": "Chat Real Time: Firebase",
-      "desc": "Desarrollé una aplicación web de autenticación eficiente que simplifica el proceso de registro a dos campos, implementando Firebase para gestión de usuarios en tiempo real y Firestore para persistencia de datos.",
-      "stack": [
-        "TYPESCRIPT",
-        "HTML5",
-        "CSS/MODULES",
-        "GITHUB",
-        "FIRESTORE",
-        "PARCEL",
-        "FIGMA",
-        "FIREBASE REALTIME DATABASE"
-      ]
-    },
-    "ppt": {
-      "title": "PPT: Piedra, Papel o Tijera",
-      "desc": "Desarrollé una SPA interactiva del clásico 'Piedra, Papel o Tijera' con JavaScript vanilla, implementando múltiples estados de juego y un sistema de puntuación dinámico contra IA.",
-      "stack": [
-        "JAVASCRIPT",
-        "HTML5",
-        "CSS/MODULES",
-        "GITHUB",
-        "WEB COMPONENTS",
-        "PARCEL"
-      ]
-    }
-  },
-  "contactBtns": {
-    "wts": {
-      "title": "Contactame",
-      "color": "black"
-    },
-    "lkn": {
-      "title": "Conectemos",
-      "color": "blue"
-    }
   }
 }
