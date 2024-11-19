@@ -1,5 +1,5 @@
 import User from "./User";
-import Contact from "../Contact.tsx";
+import Contact from "../utils/Contact.tsx";
 import Title2 from "../Titles/Title2.tsx";
 const About = () => {
     return (

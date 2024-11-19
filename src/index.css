@@ -6,6 +6,8 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: rgb(8, 8, 8);
+    color: #d6d9ded8;
 }
 
 
@@ -15,5 +17,5 @@ html {
 }
 
 .text-stroke {
-    -webkit-text-stroke: 1.5px #1572eb;
+    -webkit-text-stroke: 1.5px #156ddf;
 }

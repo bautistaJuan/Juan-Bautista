@@ -1,15 +1,15 @@
 import About from "../components/About/About.tsx";
 import Title from "../components/Titles/Title.tsx";
 import Title2 from "../components/Titles/Title2.tsx";
-import ServicesCard from "../components/ServicesCard.tsx";
+import ServicesCard from "../components/utils/ServicesCard.tsx";
 import PortfolioCard from "../components/Portfolio/PortfolioCard.tsx";
-import { service, projects, skills } from "../components/CardsContents.ts"
-import SkillsContainer from "../components/Skills/SkillsContainer.tsx";
-import Contact from "../components/Contact.tsx";
+import { service, projects, skills } from "../components/utils/CardsContents.ts"
+import SkillsContainer from "../components/StackIcons/SkillsContainer.tsx";
+import Contact from "../components/utils/Contact.tsx";
 
 
 const Home = () => {
-    const Sections = () => {
+    const SkillSection = () => {
         return (
             <>
                 <section>
@@ -34,7 +34,7 @@ const Home = () => {
                 <About />
             </div>
             <div className="flex flex-col gap-4 lg:hidden">
-                <Sections />
+                <SkillSection />
             </div>
             <div className="my-9 ">
                 <Title2 text={"Servicios"} />
@@ -44,9 +44,12 @@ const Home = () => {
             </div>
             <div className="hidden lg:flex flex-col gap-4 ">
                 <Title2 text={"Skills"} />
-                <Sections />
+                <SkillSection />
             </div>
-            <div className="mb-9">
+            <div className="lg:hidden my-8">
+                <Contact />
+            </div>
+            <div className="my-9">
                 <Title2 text={"Portfolio"} />
                 {projects && projects.length > 0 ? (
                     projects.map((item, index) => (
@@ -63,9 +66,6 @@ const Home = () => {
                 ) : (
                     <p>No hay proyectos disponibles.</p>
                 )}
-            </div>
-            <div className="lg:hidden">
-                <Contact />
             </div>
         </div>
     )

@@ -1,10 +1,10 @@
-import frontend from "../assets/icons/developer.png";
-import designer from "../assets/icons/design.png";
-import starts1 from "../assets/icons/Vector-1.svg";
-import bleach from "../assets/portfolio/bleach-appp.png";
-import chat from "../assets/portfolio/chat-app.jpg";
-import ppt from "../assets/portfolio/ppt.jpg";
-import { Skills, Service, Project } from "../components/types/types.ts";
+import frontend from "../../assets/icons/developer.png";
+import designer from "../../assets/icons/design.png";
+import starts1 from "../../assets/icons/Vector-1.svg";
+import bleach from "../../assets/portfolio/bleach-appp.png";
+import chat from "../../assets/portfolio/chat-app.jpg";
+import ppt from "../../assets/portfolio/ppt.jpg";
+import { Skills, Service, Project } from "../types/types.ts";
 
 const service: Service[] = [
   {

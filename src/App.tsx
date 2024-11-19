@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layaout from './components/Layaout';
+import Layaout from './components/utils/Layaout';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import { Analytics } from '@vercel/analytics/react';
