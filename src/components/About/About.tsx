@@ -7,7 +7,7 @@ const About = () => {
             <User />
             <div className="lg:w-full">
                 <Title2 text={"Sobre mí"} />
-                <p className="text-justify">
+                <p className="text-justify text-white">
                     Soy Juan, desarrollador web con sólidos conocimientos en React/JavaScript. Me especializo en crear aplicaciones web eficientes y escalables, combinando código limpio con interfaces intuitivas. Mi enfoque se centra en desarrollar soluciones técnicas que cumplan tanto con los objetivos del negocio como con las necesidades del usuario final.
                 </p>
             </div>

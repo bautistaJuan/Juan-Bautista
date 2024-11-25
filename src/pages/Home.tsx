@@ -67,6 +67,7 @@ const Home = () => {
                     <p>No hay proyectos disponibles.</p>
                 )}
             </div>
+            <footer className="w-full text-center p-4"><span className="text-white sm:text-[1.6rem]">By <b className="text-orange-600"> 🧑‍💻Juan.</b></span></footer>
         </div>
     )
 }
