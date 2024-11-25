@@ -3,11 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
+html {
   scroll-behavior: smooth;
   background-color: rgb(8, 8, 8);
-  color: #d6d9ded8;
-} */
+}
 
 ::-webkit-scrollbar {
   background-color: rgba(28, 27, 27, 0.066);
