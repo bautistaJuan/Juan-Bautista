@@ -2,7 +2,7 @@ import user from "../../assets/icons/user.png"
 const User = () => {
     return (
         <>
-            <div className="flex text-white">
+            <div className="flex text-white ">
                 <div className="h-[5rem] sm:h-[6rem] sm:w-[7rem] w-[6rem] rounded-lg overflow-hidden flex-grow">
                     <img className="w-full h-full" src={user} alt="Juan Vega" />
                 </div>

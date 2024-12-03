@@ -1,9 +1,10 @@
-import frontend from "../../assets/icons/developer.png";
-import designer from "../../assets/icons/design.png";
+import frontend from "../../assets/services/frontend-card.png";
+import designer from "../../assets/services/designer.png";
 import starts1 from "../../assets/icons/Vector-1.svg";
-import bleach from "../../assets/portfolio/bleach-appp.png";
-import chat from "../../assets/portfolio/chat-app.jpg";
-import ppt from "../../assets/portfolio/ppt.jpg";
+import bleach from "../../assets/portfolio/bleach_dektop.png";
+import chat from "../../assets/portfolio/chat-app.png";
+import ppt from "../../assets/portfolio/ppt.png";
+import todoapp from "../../assets/portfolio/tasks.png";
 import { Skills, Service, Project } from "../types/types.ts";
 
 const service: Service[] = [
@@ -11,7 +12,7 @@ const service: Service[] = [
     title: "Diseño web",
     img: designer,
     description:
-      "Soy diseñador web, especializado en crear experiencias visuales únicas y memorables. Me enfoco en transformar conceptos en interfaces intuitivas, usando principios de diseño UX/UI y herramientas modernas para crear sitios que no solo impacten visualmente, sino que también sean fáciles de usar.",
+      "Transformo visiones en realidades digitales cautivadoras. Como diseñador web experto, no solo creo sitios; esculpo experiencias visuales que dejan huella. Mi enfoque fusiona la estética con la funcionalidad, utilizando principios avanzados de UX/UI y las últimas herramientas del diseño digital. El resultado: interfaces intuitivas que no solo deslumbran a primera vista, sino que también guían a los usuarios en un viaje fluido y memorable a través de tu marca. Conmigo, tu presencia en línea no solo será vista, será recordada y admirada",
     price: "$25",
     starts: [starts1, starts1, starts1, starts1],
   },
@@ -19,7 +20,7 @@ const service: Service[] = [
     title: "Desarrollo web",
     img: frontend,
     description:
-      "Soy desarrollador web, especializado en crear aplicaciones modernas y funcionales. Me enfoco en transformar diseños en experiencias digitales fluidas, usando React.js y tecnologías modernas para construir soluciones que no solo se vean bien, sino que funcionen impecablemente.",
+      "Doy vida a tus ideas en el mundo digital. Como desarrollador web especializado, no me limito a escribir código; construyo experiencias interactivas que cautivan y funcionan a la perfección. Domino React.js y las tecnologías de vanguardia para crear aplicaciones web que no solo cumplen, sino que superan expectativas. Mi expertise transforma diseños estáticos en interfaces dinámicas y responsivas, garantizando que tu sitio no solo se vea impresionante, sino que también ofrezca un rendimiento excepcional en cualquier dispositivo. Conmigo, tu visión se convierte en una realidad digital robusta y escalable.",
     price: "$35",
     starts: [starts1, starts1, starts1, starts1, starts1],
   },
@@ -49,6 +50,23 @@ const projects: Project[] = [
       "Express.js",
     ],
     link: "https://app-chat-topaz.vercel.app/",
+  },
+  {
+    title: "Todoo App | Firebase",
+    img: todoapp,
+    description:
+      "Desarrolle una aplicacion de tareas que permite a los usuarios registrarse, iniciar sesión, agregar tareas, marcarlas como completadas y eliminarlas. Utilice Firebase para almacenar datos de usuarios y tareas, y Firebase Authentication para autenticar usuarios. Es completamente responsive y se puede utilizar en cualquier dispositivo. Esta aplicación es una solución completa para gestionar tareas de manera eficiente y segura. La aplicación esta desplegada en Vercel y se puede acceder desde cualquier dispositivo.",
+    stack: [
+      "JavaScript",
+      "HTML5",
+      "React",
+      "react-dom",
+      "react-icons",
+      "Taiwnd CSS",
+      "Context API",
+      "Firebase",
+    ],
+    link: "https://my-todo-list-with-firebase.vercel.app/",
   },
   {
     title: "Juego: Piedra Papel Tijera",

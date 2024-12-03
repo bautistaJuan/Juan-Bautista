@@ -3,12 +3,16 @@ import Contact from "../utils/Contact.tsx";
 import Title2 from "../Titles/Title2.tsx";
 const About = () => {
     return (
-        <div className="lg:w-[97%]  sm:m-auto lg:mt-10 lg:p-4">
+        <div className="lg:max-w-lg w-full sm:m-auto lg:mt-10 lg:p-4">
             <User />
-            <div className="lg:w-full">
+            <div className="lg:w-full text-justify text-white">
                 <Title2 text={"Sobre mí"} />
-                <p className="text-justify text-white">
-                    Soy Juan, desarrollador web con sólidos conocimientos en React/JavaScript. Me especializo en crear aplicaciones web eficientes y escalables, combinando código limpio con interfaces intuitivas. Mi enfoque se centra en desarrollar soluciones técnicas que cumplan tanto con los objetivos del negocio como con las necesidades del usuario final.
+                <p>
+                    Soy Desarrollador Front-End en Buenos Aires, AR.
+                    Tengo una gran pasión por los efectos de interfaz de usuario, animaciones y la creación de experiencias de usuario intuitivas y dinámicas.
+                </p>
+                <p>
+                    ¿Listo para llevar tu proyecto web al siguiente nivel? Construyamos algo increíble juntos. ¡Contáctame hoy mismo!
                 </p>
             </div>
             <div className="hidden lg:block pt-4">
