@@ -1,4 +1,4 @@
-import user from "../../assets/icons/user.png"
+// import user from "../../assets/icons/user.ng"
 const User = () => {
     return (
         <>

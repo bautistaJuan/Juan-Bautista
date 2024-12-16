@@ -1,10 +1,8 @@
 import About from "../../components/About/About.tsx";
 import Title2 from "../../components/Titles/Title2.tsx";
-import ServicesCard from "../../components/utils/ServicesCard.tsx";
 import PortfolioCard from "../../components/Portfolio/PortfolioCard.tsx";
-import Contact from "../../components/utils/Contact.tsx";
 import SkillSection from "../../components/Skills/SkillSection.tsx"
-import { service, projects } from "../../components/utils/CardsContents.ts"
+import { projects } from "../../components/utils/CardsContents.ts"
 
 const Home = () => {
     return (
