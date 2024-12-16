@@ -1,9 +1,9 @@
 
 const LogoText = () => {
     return (
-        <div className="text-[2.3rem] font-black tracking-[.2rem] text-[#bdbdc4] text-center w-full">
+        <div className="text-[1.2rem] font-black tracking-[.2rem] text-[#bdbdc4] text-center w-full">
             <span>
-                JUAN
+                ¡BIENVENIDO A MI PÁGINA!
             </span>
         </div>
     )

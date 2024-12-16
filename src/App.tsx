@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layaout from './components/utils/Layaout';
-import Home from './pages/Home';
-import Error from './pages/Error';
+import Home from './pages/Home/Home';
+import Error from './pages/Error/Error';
 import { Analytics } from '@vercel/analytics/react';
 function App() {
   return (

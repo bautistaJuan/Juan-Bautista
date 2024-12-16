@@ -1,7 +1,9 @@
 import whatsapp from "../../assets/icons/WhatsApp.png";
 import linkedin from "../../assets/icons/LinkedIn.png";
+import { useState } from "react";
 
 const Contact = () => {
+    const [isDisplay, setIsDisplay] = useState(false)
     const contacts = [
         {
             id: 1,
@@ -22,18 +24,30 @@ const Contact = () => {
     ];
 
     return (
-        <>
-            {contacts.map(contact => (
-                <a
-                    key={contact.id}
-                    href={contact.url}
-                    className={`flex justify-center items-center font-semibold tracking-widest h-[3rem] text-white rounded-md ${contact.bgColor} cursor-pointer mb-2`}
+        <div className="absolute right-1 bottom-0">
+            {isDisplay ?
+                contacts.map(contact => (
+                    <a
+                        key={contact.id}
+                        href={contact.url}
+                        className={`flex justify-center  items-center h-14 w-14 text-white rounded-full ${contact.bgColor} cursor-pointer mb-2`}
+                    >
+                        <img src={contact.imgSrc} alt={contact.imgAlt} aria-hidden="true" />
+                        {/* <span>{contact.text}</span> */}
+                    </a>
+                ))
+                : <button
+                    onClick={() => setIsDisplay(!isDisplay)}
+                    className="text-[3rem] absolute right-1 bottom-4 font-bold z-50"
+                    style={{
+                        background: "linear-gradient(45deg, #4285F4, #EA4335, #FBBC05, #34A853)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                    }}
                 >
-                    <img src={contact.imgSrc} alt={contact.imgAlt} aria-hidden="true" className="w-6 h-6 ml-3 mr-2" />
-                    <span>{contact.text}</span>
-                </a>
-            ))}
-        </>
+                    +
+                </button>}
+        </div>
     );
 }
 
