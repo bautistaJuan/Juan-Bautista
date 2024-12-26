@@ -24,7 +24,7 @@ const Contact = () => {
     ];
 
     return (
-        <div className="absolute right-1 bottom-0">
+        <div className="absolute right-1 bottom-0 z-50">
             {isDisplay ?
                 contacts.map(contact => (
                     <a
