@@ -30,15 +30,15 @@ const projects: Project[] = [
     title: "Bleach: Thousand Year Blood War",
     img: bleach,
     description:
-      "Desarrollé una SPA en React y TypeScript, traduciendo contenido para más de 50 personajes de anime. La aplicación incluye animaciones fluidas con Framer Motion para mejorar la experiencia de usuario, y un diseño responsive con TailwindCSS adaptable a dispositivos móviles, tablets y escritorio. Optimicé el rendimiento usando lazy loading y creé un sistema de componentes reutilizables que simplifica la gestión y el mantenimiento del código. Además, incorporé traducciones al español para hacer el contenido accesible a una audiencia hispanohablante.",
-    stack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "Aplicación web para vizualizar información de los personajes de la serie de anime Bleach. La aplicación incluye animaciones fluidas con Framer Motion para mejorar la experiencia de usuario, y un diseño responsive con TailwindCSS adaptable a dispositivos móviles, tablets y escritorio.",
+    stack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Figma"],
     link: "https://bleach-personajes.vercel.app/",
   },
   {
-    title: "Chat App | Firebase",
+    title: "Aplicaión de mensajes con Firebase",
     img: chat,
     description:
-      "Desarrollé una aplicación web con TypeScript y Web Components, optimizando el proceso de registro con solo dos campos requeridos. Implementé autenticación avanzada que redujo en un 90% los registros incorrectos. Diseñé una arquitectura eficiente con Firestore y Firebase Realtime Database para actualizaciones en tiempo real. Configuré una API RESTful para la comunicación entre frontend y backend, y un pipeline de CI/CD en Vercel para despliegues automáticos. Además, integré validación en tiempo real de correos electrónicos, mejorando significativamente la calidad de los datos.",
+      "Aplicación de chat en tiempo real con Firebase. La aplicación permite a los usuarios registrarse, iniciar sesión, crear salas de chat, enviar mensajes y ver mensajes anteriores. Utilicé Firebase para almacenar datos de usuarios y mensajes, y Firebase Authentication para autenticar usuarios. La aplicación es completamente responsive y se puede utilizar en cualquier dispositivo.",
     stack: [
       "TypeScript",
       "HTML5",
@@ -52,10 +52,10 @@ const projects: Project[] = [
     link: "https://app-chat-topaz.vercel.app/",
   },
   {
-    title: "Todoo App | Firebase",
+    title: "Aplicacion Tareas con Firebase",
     img: todoapp,
     description:
-      "Desarrolle una aplicacion de tareas que permite a los usuarios registrarse, iniciar sesión, agregar tareas, marcarlas como completadas y eliminarlas. Utilice Firebase para almacenar datos de usuarios y tareas, y Firebase Authentication para autenticar usuarios. Es completamente responsive y se puede utilizar en cualquier dispositivo. Esta aplicación es una solución completa para gestionar tareas de manera eficiente y segura. La aplicación esta desplegada en Vercel y se puede acceder desde cualquier dispositivo.",
+      "Aplicación de lista de tareas con Firebase. La aplicación permite a los usuarios registrarse, iniciar sesión, crear tareas, marcar tareas como completadas y eliminar tareas. Utilicé Firebase para almacenar datos de usuarios y tareas, y Firebase Authentication para autenticar usuarios. La aplicación es completamente responsive y se puede utilizar en cualquier dispositivo.",
     stack: [
       "JavaScript",
       "HTML5",
@@ -72,7 +72,7 @@ const projects: Project[] = [
     title: "Juego: Piedra Papel Tijera",
     img: ppt,
     description:
-      "Desarrollé una SPA del clásico juego de piedra, papel o tijera con JavaScript, HTML5 y CSS. La aplicación permite jugar contra la computadora en una experiencia interactiva con pantallas de inicio, juego y resultados. Implementé un manejador de estados y un router personalizado para facilitar la navegación entre vistas y el control de flujo del juego. La app utiliza Custom Elements para una estructura modular y un diseño responsive que asegura una experiencia óptima en dispositivos móviles y de escritorio.",
+      "Aplicación web del juego de piedra, papel o tijera. La aplicación permite a los usuarios jugar contra la computadora y ver el historial de partidas. Utilicé TypeScript para el desarrollo y Web Components para crear la interfaz de usuario. La aplicación es completamente responsive y se puede utilizar en cualquier dispositivo.",
     stack: [
       "TypeScript",
       "HTML5",

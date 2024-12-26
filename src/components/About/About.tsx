@@ -6,12 +6,8 @@ const About = () => {
             <User />
             <div className="text-justify text-white">
                 <p>
-                    Soy Desarrollador Front-End en Buenos Aires, AR.
-                    Tengo una gran pasión por los efectos de interfaz de usuario, animaciones y la creación de experiencias de usuario intuitivas y dinámicas.
-                </p>
-                <p>
-                    ¿Listo para llevar tu proyecto web al siguiente nivel? Construyamos algo increíble juntos. ¡Contáctame hoy mismo!
-                </p>
+                    De operario a desarrollador frontend: mi viaje de transformación profesional comenzó cuando comprendí que mis habilidades creativas merecían más que una línea de producción.
+                    Después de 3 años en una Pyme, decidí estudiar programación, desarrollo web, para mejorar mi estilo de vida y poder trabajar de lo que me gusta, es por eso que sigo aprendiendo y capacitandome para poder algún día lograr este sueño 💙                </p>
             </div>
             <div className="flex  justify-end">
                 <Contact />

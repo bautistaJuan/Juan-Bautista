@@ -11,14 +11,8 @@ const Home = () => {
             <div className="flex flex-col gap-4">
                 <SkillSection />
             </div>
-            {/* <div className="my-9 ">
-                <Title2 text={"¿Que hago?"} />
-                <section className="flex flex-col gap-4" key={2}>
-                    {service.map((item, index) => <ServicesCard service={item} index={index} />)}
-                </section>
-            </div> */}
-            <div className="my-9">
-                <Title2 text={"Portfolio"} />
+            <Title2 text={"Portfolio"} />
+            <div className="grid justify-center grid-cols-1 sm:grid-cols-2 gap-2">
                 {projects && projects.length > 0 ? (
                     projects.map((item, index) => (
                         <PortfolioCard
@@ -35,7 +29,7 @@ const Home = () => {
                     <p>No hay proyectos disponibles.</p>
                 )}
             </div>
-            <footer className="w-full text-center p-4"><span className="text-white sm:text-[1.6rem]">By <b className="text-orange-600"> 🧑‍💻Juan.</b></span></footer>
+            <footer className="w-full text-center p-4 mt-12"><span className="text-white sm:text-[1.6rem]">By <b className="text-orange-600"> 🧑‍💻Juan.</b></span></footer>
         </div>
     )
 }
