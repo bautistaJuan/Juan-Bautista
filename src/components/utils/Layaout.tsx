@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom";
 const Layaout = () => {
   return (
     <div className="h-screen max-w-4xl flex flex-col mx-auto overflow-hidden">
-      {/* <Header /> */}
       <div className="col-span-4 ">
         <div className="h-[100vh] overflow-y-scroll p-3">
           <Outlet />
