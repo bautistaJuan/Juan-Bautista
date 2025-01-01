@@ -1,6 +1,6 @@
-import Title from "../../components/Titles/Title.tsx";
+import Title from "../Title/Title.tsx";
 import { skills } from "../../components/utils/CardsContents.ts"
-import SkillsContainer from "../../components/StackIcons/SkillsContainer.tsx";
+import SkillsContainer from "../StackIcons/StackContainer.tsx";
 
 const SkillSection = () => {
     return (
@@ -15,7 +15,6 @@ const SkillSection = () => {
             </section>
             <section>
                 <Title text={"Herramientas"} />
-                <div className="grid grid-cols-3 md:grid-cols-6  sm:grid-rows-1 gap-1"></div>
                 <SkillsContainer skills={skills.tools} />
             </section>
         </>

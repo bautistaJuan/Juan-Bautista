@@ -1,17 +1,19 @@
+import ContactIcon from "./ContactIcon";
 import User from "./User";
-import Contact from "../utils/Contact.tsx";
 const About = () => {
     return (
         <div className="w-full sm:m-auto">
             <User />
-            <div className="text-justify text-white">
-                <p>
-                    De operario a desarrollador frontend: mi viaje de transformación profesional comenzó cuando comprendí que mis habilidades creativas merecían más que una línea de producción.
-                    Después de 3 años en una Pyme, decidí estudiar programación, desarrollo web, para mejorar mi estilo de vida y poder trabajar de lo que me gusta, es por eso que sigo aprendiendo y capacitandome para poder algún día lograr este sueño 💙                </p>
-            </div>
-            <div className="flex  justify-end">
-                <Contact />
-            </div>
+            <p className="text-justify  text-[1.1rem] sm:text-[1.5rem] text-white">
+                Soy desarrollador web full-stack con experiencia en el desarrollo de aplicaciones web modernas y funcionales.
+            </p>
+            <p className="text-justify text-[1.1rem]  sm:text-[1.5rem] text-white">
+                Actualmente curso la carrera de Desarrollo Web Full-Stack en  <a href="https://apx.school" className="text-yellow-500 border-b">apx.school</a> y complemento mis estudios con proyectos freelance, donde brindo soluciones adaptadas a las necesidades de los clientes.
+            </p>
+            <p className="text-justify text-[1.1rem]  sm:text-[1.5rem] text-white">
+                Me especializo en Javascript, React, Node.js, Express, Firebase, HTML, CSS, TailwindCSS, Git y GitHub.
+            </p>
+            <ContactIcon />
         </div>
     )
 }
